@@ -1,6 +1,7 @@
+
 package Lecture03;
 import java.util.Scanner; 
-public class Loops {
+public class CheckPrimeNumber {
     public static void main(String[] args) {
 
         System.out.println("Please enter the number : ");
@@ -16,13 +17,15 @@ rem = n%i;
 if (rem == 0)
 {
     System.out.println(" this is not a prime number : " + n);
+    System.out.println(" this is Divisible by : " + i);
     break;
 }
 
 }
 if (rem !=0)
 {
-    System.out.println(" THis is a prime number " + n);
+    System.out.println("Remainder is : " + rem);
+        System.out.println(" THis is a prime number " + n);
 }
 }
     
