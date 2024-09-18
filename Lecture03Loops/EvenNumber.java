@@ -1,4 +1,4 @@
-package Lecture03;
+package Lecture03Loops;
 import java.util.Scanner; 
 public class EvenNumber {
     public static void main(String[] args) {
