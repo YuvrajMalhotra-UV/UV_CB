@@ -19,7 +19,7 @@ public class CountingNumber {
     }
     n1=n1/10;
    }
-    System.out.println("number of times digit is ocurring is =" + count);
+    System.out.println("Number of times digit is ocurring is = " + count);
     }
 
 }
