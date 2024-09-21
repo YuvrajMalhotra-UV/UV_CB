@@ -12,27 +12,29 @@ public class sumofoddplacedandevenplaced {
     int S1 =0;
     int S2 = 0;
     int count =0;
+    int num = n;
+    while (num != 0) {
+         num = num/10;
+        count++;
+    }
     while(n>0){
 
         rem1 = n%10;
         S1 = S1+rem1;
-        count++;
-
+        
         quot = n/10;
         rem2= quot%10;
-        //count++;
         S2=S2+rem2;
-    
         n=quot/10;
-        System.out.println(count);
     }
-if( count%2==0){
+    
+    if( count%2==0){
 
-    System.out.print("\n Sum of odd digits is "  + S1);
-    System.out.print("\n Sum of even digits is " +  S2);
+    System.out.print("\n Sum of even placed  digits is "  + S1);
+    System.out.print("\n Sum of odd placed digits is " +  S2);
 }
-else{ System.out.print("\n Sum of even digits is"+   S1);
-System.out.print("\n Sum of odd digits is" +  S2);
+else{ System.out.print("\n Sum of odd placed digits is "+   S1);
+System.out.print("\n Sum of even placed digits is " +  S2);
 
 }
    
