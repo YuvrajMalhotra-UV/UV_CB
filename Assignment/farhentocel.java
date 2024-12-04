@@ -1,3 +1,4 @@
+package Assignment;
 import java.util.Scanner;
 public class farhentocel {
     public static void main(String[] args) {
