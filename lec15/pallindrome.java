@@ -17,7 +17,7 @@ public class pallindrome {
     }
 
     public static void main(String[] args) {
-        String testString = "book";
+        String testString = "boob";
         if (isPalindrome(testString)) {
             System.out.println(testString + " is a palindrome.");
         } else {
