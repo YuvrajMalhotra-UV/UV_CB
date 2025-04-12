@@ -10,8 +10,8 @@ public class genparanthesis {
         if(l>n || r>l){
         return;
         }
-        generatepara(n, l+1, r, ans+ "{");
-        generatepara(n, l, r+1, ans + "}");
+        generatepara(n, l+1, r, ans+ "(");
+        generatepara(n, l, r+1, ans + ")");
     }
     public static void main(String[] args) {
         
